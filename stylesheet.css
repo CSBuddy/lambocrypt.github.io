@@ -11,3 +11,88 @@ h1
 	color:grey;
 	
 }
+
+h1{
+		position:relative;
+		top:10px;
+		}
+		nav{
+		position:relative;
+		bottom:20.5px;
+		}
+		nav li {
+		display:inline;
+		font-size:20px;
+		
+		}
+		nav a:link,a:visited
+		{
+		text-decoration:none;
+		color:white;
+		background-color:orange;
+		padding:5px;
+		margin:0px;
+		}
+		
+		nav a:hover
+		{
+		text-decoration:none;
+		color:white;
+		background-color:green;
+		padding:5px;
+		margin:0px;
+		
+		}
+body,h2,p,h1,ul,hr{
+		margin:0;
+		padding:0;
+		}
+		
+		#parent-block
+		{
+		background-color:lightgrey;
+		height:500px;
+		text-align:justify;
+		}
+		.block
+		{
+		background-color:white;
+		float:left;
+		margin:2%;
+		width:29%;
+		}
+		#message
+		{
+		position:relative;
+		bottom:20px;
+		}
+		table,td,th{
+		border:1px solid grey;
+		}
+		table {
+		height:400px;
+		width:400px;
+		border-spacing:0px;
+		}
+		th {
+		height:80px;
+		background-color:lightblue;
+		}
+		.item4 {
+		width:50px;
+		}
+		td,th {
+		text-align:center;
+		vertical-align:bottom;
+		padding:30px;
+		}
+	tbody{
+	background-color:lightpink;
+	}
+		
+		tfoot{
+		background-color:lightgreen;
+		}
+		h2{
+		color:grey;
+		}
